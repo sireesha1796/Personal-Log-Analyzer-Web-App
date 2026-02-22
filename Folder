@@ -1,0 +1,19 @@
+personal-log-analyzer/
+│
+├─ backend/
+│   ├─ app.py           # Main Flask app
+│   ├─ log_parser.py    # Functions to parse logs
+│   ├─ models.py        # DB models if using SQLite
+│   └─ requirements.txt # Flask + SQLite + any other packages
+│
+├─ frontend/
+│   ├─ index.html       # Home page with upload form
+│   └─ style.css        # Optional styling
+│
+├─ database/
+│   └─ logs.db          # SQLite DB for storing logs
+│
+├─ sample_logs/
+│   └─ app.log          # Example log file for testing
+│
+└─ README.md            # GitHub documentation
